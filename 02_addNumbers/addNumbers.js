@@ -4,7 +4,7 @@ function addNumbers() {
 
   let result;
 
-  result = a * 2 + b; // <------ EDIT THIS LINE
+  result = a + b; // <------ EDIT THIS LINE
 
   return result;
 }
