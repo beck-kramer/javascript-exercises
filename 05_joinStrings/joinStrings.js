@@ -14,7 +14,16 @@ let lastName = "Stevenson";
 let thisYear = 1965
 let birthYear = 1947
 
-let greeting = "Hello, my name is " + firstName + lastName + " and I am " + (thisYear - birthYear) + " years old."
+let greeting = "Hello, my name is " + firstName + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+
+console.log(greeting);
+
+let fullName = firstName + " " + lastName;
+let age = thisYear - birthYear;
+
+greeting = "Hello, my name is " + fullName + " and I am " + age + " years old.";
+
+console.log(greeting);
 
 
 
